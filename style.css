@@ -1,0 +1,71 @@
+
+
+
+.grey-background {
+  background-color: lightgray;
+  height: 200px;
+}
+
+.white-background {
+  background-color: whitesmoke;
+  height: 200px;
+}
+
+.black-background {
+  background-color: black;
+  color: whitesmoke;
+  height: 200px;
+}
+
+.grad-background {
+  background: url('gradbackground.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 200px;
+}
+
+.colorblocktop {
+  padding-top: 20px;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
